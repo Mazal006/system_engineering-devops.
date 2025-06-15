@@ -1,0 +1,10 @@
+#!/bin/bash
+pwd
+cd ~/system_engineering-devops/0x00-shell_basics
+touch 0-current_working_directory
+nano 0-current_working_directory    # Paste script, save & exit
+chmod +x 0-current_working_directory
+./0-current_working_directory       # Test script
+git add 0-current_working_directory
+git commit -m "Add script that prints the current working directory"
+git push origin main
